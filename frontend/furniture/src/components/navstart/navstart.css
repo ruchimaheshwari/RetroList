@@ -1,0 +1,32 @@
+.navstart {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    height: 7vh;
+    width: 85%;
+    background-color: white;
+    border-bottom: #BFBFBF 1px solid;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #5603AD;
+}
+
+.options {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.option {
+    height: 60%;
+    font-size: 20px;
+    color: #5603AD;
+    cursor: pointer;
+}
+
+.option:hover {
+    border-bottom: #5603AD 2px solid;
+}

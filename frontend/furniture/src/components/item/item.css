@@ -1,0 +1,66 @@
+.item {
+    height: 220px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #E1D0FC;
+    border: #E1D0FC 1px solid;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.image {
+    height: 80%;
+    width: 25%;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image > img {
+    width: 100%;
+    max-height: 100%;
+}
+
+.info {
+    height: 80%;
+    width: 60%;
+    margin-left: 30px;
+    font-family: 'Sora', sans-serif;;
+    font-weight: 3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.itemInfo {
+    display: flex;
+    /* font-size: 19px; */
+}
+
+.label {
+    display: flex;
+    font-weight: bolder;
+}
+
+.description {
+    /* font-size: 19px; */
+    display: block;
+    text-align: left;
+}
+
+.sellerInfo {
+    display: flex;
+    /* font-size: 19px; */
+}
+
+.tags {
+    display: flex;
+    /* font-size: 19px; */
+}
+
+.mailto {
+    color: #5603AD;
+}
